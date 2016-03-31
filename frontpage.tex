@@ -1,5 +1,5 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%   This is frontpage.tex file needed for the dmathesis.cls file.  You   %
+%   This is frontpage.tex file needed for the mhar-vell.cls file.  You   %
 %  have to  put this file in the same directory with your thesis files.  %
 %                Written by M. Imran 2001/06/18                          % 
 %                 No Copyright for this file                             % 
@@ -20,29 +20,27 @@
 
 \begin{center}
   \vspace*{0.8cm}
-  {\Large \bf Proposta de projeto de conclusão do curso de Pós-graduação \\
-  para o Doutorado em Mecatrônica da UFBA, como parte do processo de admissão discente em 2015.2.}
+  {\Large \bf Proposta de projeto de pesquisa do programa PRH 55 da ANP para o curso de pós-graduação em Engenharia do Petróleo, como parte do processo de formação científica.}
 
   \vspace*{2.5cm}
  % {\LARGE\bf Marco Antônio dos Reis}
   %\vspace*{3cm}
   %\vfill
 
-  {\Large Navegação autônoma para robô de inspeção de linhas de transmissão de 138kV utilizando aprendizagem de redes bayesiana e Q-learning para detecção e transposição de objetos e tento partido.}
+  {\Large Robô de inspeção com capacidade de realizar operações semi-autônomas em estruturas subaquáticas utilizando ativos nacionais e de baixo custo.}
   %\\
-         %[1mm] no Doutorado em Mecatrônica da UFBA, como parte do processo de admissão discente em 2015.2}
-  \vspace*{2.5cm}
+           \vspace*{2.5cm}
   
   {\bf ---------------------------------------\\
-  Marco Antonio dos Reis}
+  Luis Paulo Vinil}
   
   \vspace*{1.5cm}
   {\bf --------------------------------------------------\\
-  Dr. Leizer Schnitman (Orientador)}
+  Marco Reis, M.Sc. (Orientador)}
   
    \vspace*{1.5cm}
   {\bf ------------------------------------------------------------------\\
-  Dr. Herman Augusto Lepikson (Co-orientador)}
+  Rômulo Cerqueira, M.Sc. (Co-orientador)}
   
   %{\LARGE\bf Marco Antônio dos Reis}
   % Put your university logo here if you wish.
@@ -51,11 +49,11 @@
    \end{center}
 	\vspace*{0.3cm}
 
-  {Programa de Pós-graduação em Mecatrônica\\
+  {Programa de Pós-graduação em Engenharia do Petróleo\\
           [-3mm] Linha de pesquisa em sistemas computacionais\\
-          [-3mm] Universidade Federal da Bahia\\
+          [-3mm] Senai Cimatec\\
           [-3mm] Salvador - Bahia\\
-          [-3mm] janeiro de 2016}
+          [-3mm] março de 2016}
 \end{center}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -77,11 +75,11 @@
 \thispagestyle{empty}
 \addcontentsline{toc}{chapter}{\numberline{}Resumo}
 \begin{center}
-  \textbf{\Large Navegação autônoma para robô de inspeção de linhas de transmissão de 138kV utilizando aprendizagem de redes bayesiana e Q-learning para detecção e transposição de objetos e tento partido.
+  \textbf{\Large Robô de inspeção com capacidade de realizar operações semi-autônomas em estruturas subaquáticas utilizando ativos nacionais e de baixo custo.
   }
 
   \vspace*{1cm}
-  \textbf{\large Marco Antônio dos Reis}
+  \textbf{\large Luis Paulo Vinil}
 
   \vspace*{2cm}
  % {\large Submetido para proposta de projeto ao processo de admissão no Doutorado de Mecatrônica\\ janeiro de 2016}
@@ -89,10 +87,13 @@
   %\vspace*{2cm}
   \textbf{\large Resumo}
 \end{center}
-Durante vários anos, a inspeção de linhas de transmissão de alta tensão tem sido feito regularmente por aeronaves tripuladas, realizando vôos a baixa altitude e perto de linhas de transmissão de alta tensão energizadas. Além de ser uma forma onerosa de inspeção, em alguns casos, devido às condições meteorológicas e outros fatores que dificultam o sobrevoo, a tripulação pode estar sujeita a riscos associados com a tarefa. Como alternativa para o uso de aeronaves, a inspeção por veículos terrestres é apresentada como uma inspeção limitada, devido ao acesso do terreno e do ângulo de visão desfavorável. Desta forma uma inspeção por sistemas robóticos torna-se uma solução vantajosa quanto à redução dos custos, riscos relacionados aos recursos e aumento de produtividade. Este projeto de tese tem como objetivo propor um sistema de navegação autônoma para detecção e transposição de objetos e tento partido realizando uma inspeção visual e térmica dos cabos das linhas de transmissão, identificando e registrando os pontos quentes presentes nos cabos e nos objetos, assim como transpondo objetos quando necessários para a sua locomoção de forma autônoma. O sistema será implementado na forma de uma simulação utilizando o framework ROS e o software GAZEBO. Com isso espera-se apresentar uma alternativa à metodologia de inspeção em linhas de transmissão energizadas utilizada hoje em dia. A continuidade da pesquisa no uso de uma solução mecânica já desenvolvida é algo vital para este projeto, logo será utilizado um sistema mecânico já utilizado em pesquisas anteriores para inspeções em linhas de transmissão.
+Durante vários anos, a inspeção de estruturas submarinas tem sido feito regularmente por ROVs ou mergulhadores em alta profundidade. Além de ser uma forma onerosa de inspeção, em alguns casos, devido às condições meteorológicas e outros fatores que dificultam a inspeção. Como alternativa para o uso de mergulhadores, a inspeção por veículos remotamente controlados é apresentada como uma inspeção limitada, devido ao tempo despendido para a realização de tarefas simples e repetidas, e que muitas vezes não são reprodutivas e não alcançam um bom desempenho quanto a repetibilidade.
+Desta forma uma inspeção por ROVs com operações semi-autônomas torna-se uma solução vantajosa quanto à redução dos custos, riscos relacionados aos recursos e aumento de produtividade. 
+O sistema será implementado na forma de uma simulação utilizando o framework ROS e o software GAZEBO. Com isso espera-se apresentar uma alternativa à metodologia de inspeção em estruturas submarinas utilizada hoje em dia. A continuidade da pesquisa no uso de uma solução mecânica já desenvolvida é algo vital para este projeto, logo será utilizado um sistema mecânico já utilizado em pesquisas anteriores para inspeções em estruturas submarinas.
+Resumidamente, o objetivo do projeto é o desenvolvimento de um ROV nacional, capaz de realizar inspeção de integridade estrutural, como cascos de navios ou plataformas realizando operações específicas semi-automaticamente. O projeto vai ser desenvolvido em duas fases consecutivas de 2 anos. Na primeira fase será desenvolvida um protótipo funcional com tecnologias nacionais e de baixo custo em inspeção autônoma submarina e na fase consecutiva será desenvolvido o algoritmo de inspeção em tubulação submarina.
 
 \vspace*{1cm}
-\noindent \textbf{Palavras chaves: }navegação autônoma, robô de inspeção de linhas de transmissão, aprendizagem de máquinas, redes bayesiana, Q-learning.
+\noindent \textbf{Palavras chaves: }robô de inspeção, inspeção subaquática.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -100,10 +101,10 @@ Durante vários anos, a inspeção de linhas de transmissão de alta tensão tem
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter*{Declaração}
 \addcontentsline{toc}{chapter}{\numberline{}Declaração}
-O projeto nesta proposta de tese é baseado na pesquisa realizada pelo Brazilian Institute of Robotics - BIR / Senai Cimatec. A pesquisa versa na área da inspeção de linhas de transmissão de alta tensão de 138kV. Esta proposta também faz parte como um dos subitens para uma prospecção de projeto junto a ANEEL. Referências contidas nela são estritamente de responsabilidade do autor.\\
+O projeto nesta proposta é baseado na pesquisa realizada pelo Brazilian Institute of Robotics - BIR / Senai Cimatec. A pesquisa versa na área da inspeção de estruturas subaquáticas. Referências contidas nela são estritamente de responsabilidade do autor.\\
 \vspace*{8cm}
 \vfill
-\noindent \textbf{Copyright\copyright\; 2016 by MARCO REIS}.\\
+\noindent \textbf{Copyright\copyright\; 2016 by LP Vinil}.\\
 ``Os direitos de autoria deste projeto recai sobre o autor. Citações não devem ser publicadas sem o consentimento prévio por escrito do autor e informações oriundas da mesma devem ser reconhecidas e referenciadas''.
 
 
