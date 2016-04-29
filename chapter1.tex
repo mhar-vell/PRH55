@@ -1,55 +1,43 @@
 %\setcounter{equation}{0}
 \chapter{Introdução}
-A integridade da infraestrutura offshore é uma questão-chave para a produção ininterrupta de petróleo e gás, bem como para a segurança dos funcionários embarcados. O envelhecimento das infraestruturas causada principalmente pela corrosão e fadiga gera um aumento da probabilidade de falha. Em casos extremos, a perda da integridade estrutural pode causar o colapso da estrutura resultando na perda completa da instalação e ocasionalmente em um desastre ecológico e humano. 
-O projeto de vida típico de uma plataforma é de 20 - 25 anos, no entanto, devido à demanda atual para a produção de petróleo e gás, muitas dessas plataformas continuarão em operações além do projetado. A inspeção estrutural da região submersa destas estruturas apresenta um desafio logístico dado o meio subaquático. Logo, a importância do desenvolvimento de sistemas submarinos adequados para inspeções periódicas de integridade estrutural se faz necessário. Um agravante a este problema é o aumento do percentual da produção executada por equipamentos submersos, que resulta em uma maior demanda de inspeção periódica dos equipamentos posicionados no fundo marinho.  
 
-Atualmente, as estruturas subaquáticas são inspecionados ou por ROVs ou mergulhadores. Ambos os métodos são dispendiosos e abrangem um tempo considerável de inspeção, principalmente por quatro razões: 
-\begin{itemize}
-	\item a necessidade de um navio de apoio,
-	\item a necessidade de pessoal altamente especializado e,
-	\item o tempo necessário para realizar estas inspeções essencialmente manual.
-\end{itemize}
+A durabilidade das estruturas em ambiente sub-aquático é de suma importância para uma produção contínua de petróleo, assim como a segurança dos funcionários e do ambiente onde as plataformas e/ou navios estão instalados. O desgaste natural ou acidental dessas instalações deve ser evitado ao máximo pois a operação de extração de petróleo é extremamente perigosa e uma falha ou imperícia pode ocasionar um desastre ambiental.
 
-Portanto, o principal desafio no problema de inspeção estrutural submarina reside no desenvolvimento de um método eficiente de inspeção, que não necessita de um pessoal altamente especializado e que pode ser utilizada diretamente a partir das plataformas, sem a necessidade de uma embarcação de suporte.  
+Uma plataforma de petróleo é normalmente projetada para 25 anos, tempo este que corresponde ao período de esgotamento das reservas de hidrocarbonetos, segundo \cite{1}. No entanto mesmo depois deste período algumas plataformas ainda continuam em funcionamento, consequentemente a velocidade de degradação tem um aumentam de forma exponencial devido a modificação das propriedades dos materiais utilizados nessas estruturas. Nesta situação observa-se uma extrema necessidade de um monitoramento constante das condições de uso destas instalações submersas.    
+ 
+Atualmente, as instalações sub-aquáticas são inspecionadas por ROVs, AUVs ou mergulhadores. Estes métodos de inspeção tem um custo elevado
+e sua execução utiliza muito tempo pois necessita de um navio de apoio com o AUV, ROV ou mergulhadores, pessoal qualificado e autorizado para a realização da inspeção além do tempo de mobilização, locomoção e preparo dos equipamentos e estruturas que serão necessárias para a realização do serviço
+ 
+
+Um dos principais desafios na inspeção de instalações submarinas esta nos métodos aplicados atualmente que eleva os custos e o tempo para a realização de ações básicas, ações essas que poderiam ser realizadas por pessoas qualificadas da própria plataforma de petróleo, onde também ficaria o ROV aumentando a possibilidade de uma vistoria mais continua, reduzindo os custos e o tempo excluindo a utilização de um navio de apoio.
+ 
+
 
 \section{Objetivos}
-O objetivo do projeto é desenvolver um protótipo funcional de um ROV, capaz de realizar inspeção estrutural de uma plataforma offshore, onde o mesmo possa realizar algumas operações de forma autônoma e que pode ser operado diretamente de instalações fixas ou flutuantes, sem a necessidade de operadores especializados e/ou navios de apoio. Assim resultando na redução do custo de operação e manutenção, na perda de produção não planejada e nos riscos de integridade de ativos. 
+O objetivo do projeto é desenvolver um supervisório capaz de operar o OpenROV através de um computador com uma interface operacional de fácil compreensão e utilização, tendo algumas operações realizadas pelo ROV sendo executadas automaticamente, mediante a uma programação prévia e analise de informações captadas por sensores. 
 
 \section{Objetivos específicos}
-O objetivo do projeto será o desenvolvimento, em dois anos, de ROV nacional tendo algumas operações semi-autônomas, com as seguintes características:
+Seu desenvolvimento será realizado em dois anos de acordo com as seguintes Fases:
+\textbf{\large 1ª Fase.}
+ 
 \begin{itemize}
-\item funcionamento independente de operadores;
-\item propulsão realizada com motores elétricos, movidos por bateria	;
-\item câmeras de espectro visível para inspeção visual da tubulação;
-\item características mecânicas compatíveis com os movimentos necessários para o deslocamento subaquático;
-\item sistema mecânica de baixo peso e design que permita um procedimentos simples e seguro.
+
+	\item Montagem do OpenROV.
+	\item Pesquisar configuração padrão do OpenRov.
+	\item Pesquisar linguagens usadas no OpenRov.
+	\item Pesquisar padrões de comunicação do OpenRov.
+	\item Desenvolver um algorítimo no ROS para controlar o OpenROV através de um computador.
+	\item Desenvolver um algorítimo no ROS que recebe as informações adquiridas pelo sensores do OpenROV.
 \end{itemize}
 
-\noindent Neste quesito, a busca para a completude do objetivo principal se faz necessário o alcance de alguns objetivos específicos:
+ \textbf{\large 2ª Fase.}
+ 
 \begin{itemize}
-\item pesquisa e levantamento bibliográfico e do estado da arte: framework ROS, simulador GAZEBO, sistema mecânico a ser utilizado, ambiente de atuação do robô;
-\item definição dos sistemas de localização, sensoriamento e motorização;
-\item desenvolvimento da arquitetura de hardware e software do robô;
-\item definição dos sensores e atuadores;
-\item definição das ações do robô e das inspeções a serem realizadas;
-\item modelagem do ambiente e do robô;
-\item desenvolvimento do módulo de controle;
-\item proposição de um algoritmo de controle para detecção de objetos;
-\item proposição de um algoritmo de controle para transposição de objetos;
-\item simulação do robô no ambiente de atuação;
-\item produção de dois artigos a serem apresentado em congressos.
+
+	\item Desenvolver um algorítimo no ROS que controle o OpenROV de maneira semi-autônoma de acordo com as informações adquiridas.
+    \item Desenvolver o ambiente de simulação no software GAZEBO.
+	\item Desenvolver o modelo de simulação do OpenROV no software GAZEBO.
+	\item Realizar simulações e comparar com as simulações realizadas no GAZEBO.
+	\item Desenvolver o TCC.
+
 \end{itemize}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
