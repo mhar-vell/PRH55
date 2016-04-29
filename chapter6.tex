@@ -1,45 +1,32 @@
 \chapter{Cronograma de atividades}
-In this chapter we discuss two practical algorithms (implicit and
-explicit method) that are used to solve an
-algebraic system arising in the problem discussed in this thesis.   We discuss the convergence theory for the
-implicit scheme as used  to solve the system arising from the scheme
-1.   We also
-discuss  some computational results for  one and
-two dimensions. We use the implicit scheme in all
-simulations in this chapter. We have made a comparison with Scheme~2
-and the results are compatible. Before showing some computational results, we discuss linear stability solution for the problem.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%  NEW SECTION   %%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\setcounter{equation}{0}
-\section{Practical Algorithms}
-\subsection{Iterative  Method for Scheme 1 \label{implicit}}
-Let us expand $U_i$ and $W_i$, $i=1,2,$  in terms of the standard
-nodal basis functions of the finite element space $S^h$, that
-is,
-\eqlabon 
-\begin{align}
-U^n_1=\sum_{i=1}^{J}U_{1,i}^n\eta_i,\quad W^n_1=\sum_{i=1}^{J}W_{1,i}^n\eta_i,\label{5E0001a}\\
-U^n_2=\sum_{i=1}^{J}U_{2,i}^n\eta_i,\quad W^n_2=\sum_{i=1}^{J}W_{2,i}^n\eta_i,\label{5E0001b}
-\end{align}
-where $J$ be the number of node points. 
-\eqlaboff
-
-\subsubsection{Concluding Remarks}
-To see a clear interaction between the solutions $U_1$ and $U_2$ in
-terms of their physical meaning, it is worthwhile doing computational
-experiment in three space dimensions.
 
 
 
 
 
 
+\textbf{\large 1ª Fase.}
+ 
+\begin{itemize}
 
+	\item Embasamento teórico 01/03/2016 a 29/04/2016.
+	\item Montagem do OpenRov 02/05/2016 a 16/05/2016.
+	\item Pesquisar configuração padrão do OpenRov .
+	\item Pesquisar linguagens usadas no OpenRov.
+	\item Pesquisar padrões de comunicação do OpenRov.
+	\item Desenvolver um algorítimo no ROS para controlar o OpenRov através de um computador.
+	\item Desenvolver um algorítimo no ROS que recebe as informações adquiridas pelo sensores do OpenRov.
 
+\end{itemize}
 
+ \textbf{\large 2ª Fase.}
+ 
+\begin{itemize}
 
+	\item Desenvolver um algorítimo no ROS que controle o OpenRov de maneira semi-autônoma de acordo com as informações adquiridas.
+    \item Desenvolver o ambiente de simulação no software GAZEBO.
+	\item Desenvolver o modelo de simulação do OpenRov no software GAZEBO.
+	\item Realizar simulações e comparar com as simulações realizadas no GAZEBO.
+	\item Desenvolver o TCC.
 
-
-
-
+\end{itemize}
