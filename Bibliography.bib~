@@ -1,0 +1,97 @@
+@article{0,
+  title={Acidentes de trabalho em plataformas de petr{\'o}leo da Bacia de Campos, Rio de Janeiro, Brasil},
+  author={Freitas, Carlos Machado de and Souza, Carlos Augusto Vaz de and Machado, Jorge Mesquita Huet and Porto, Marcelo Firpo de Souza},
+  journal={Cadernos de Sa{\'u}de P{\'u}blica},
+  volume={17},
+  number={1},
+  pages={117--130},
+  year={2001},
+  publisher={SciELO Public Health}
+}
+
+@article{1,
+  title={An{\'a}lise de custo de vida {\'u}til de sistemas, aplicado a plataformas de petr{\'o}leo},
+  author={Miranda, Marcelo Accorsi and Brick, ES},
+  journal={XXXV Simp{\'o}sio Brasileiro de Pesquisa Operacional (SBPO), Natal, RN, Brasil},
+  year={2003}
+}
+
+@article{2,
+  title={Desenvolvimento de um submers{\'\i}vel remotamente operado de baixo custo e caracteriza{\c{c}}{\~a}o dos sistemas de propuls{\~a}o e vetoriza{\c{c}}{\~a}o de empuxo por h{\'e}lice},
+  author={Magalhaes, Paulo Henrique Vieira},
+  year={2007},
+  publisher={UFMG}
+}
+
+@article{3,
+  title={DESENVOLVIMENTO DE SISTEMA DE COMANDO EM TEMPO REAL PARA UM VE{\'I}CULO AQU{\'A}TICO REMOTAMENTE OPERADO (ROV)},
+  author={Colares, Diego Bellas and de Oliveira Bezerra, Roberto}
+}
+
+@inproceedings{4,
+  title={Design and use paradigms for gazebo, an open-source multi-robot simulator},
+  author={Koenig, Nathan and Howard, Andrew},
+  booktitle={Intelligent Robots and Systems, 2004.(IROS 2004). Proceedings. 2004 IEEE/RSJ International Conference on},
+  volume={3},
+  pages={2149--2154},
+  year={2004},
+  organization={IEEE}
+}
+
+@inproceedings{5,
+  title={FlatFish--A compact subsea-resident inspection AUV},
+  author={Albiez, Jan and Joyeux, Sylvain and Gaudig, Christopher and Hilljegerdes, Jens and Kroffke, Sven and Schoo, Christian and Arnold, Sascha and Mimoso, Geovane and Alcantara, Pedro and Saback, Rafael and others},
+  booktitle={Proceedings of the MTS/IEEE OCEANS},
+  pages={1--8},
+  year={2015}
+}
+
+@article{6,
+  title={Desenvolvimento de um simulador para ve{\'\i}culos subaqu{\'a}ticos com interface 3D e an{\'a}lise de configura{\c{c}}{\~o}es de propulsores},
+  author={Vaz, Thiago Francisco Fuckner and others},
+  year={2015},
+  publisher={Joinville/SC}
+}
+
+@book{7,
+  title={The ROV manual: a user guide for remotely operated vehicles},
+  author={Christ, Robert D and Wernli Sr, Robert L},
+  year={2013},
+  publisher={Butterworth-Heinemann}
+}
+
+
+
+
+@book{andre,
+title={Apostila de Programação Orientada a Objeto em C++},
+author={André Duarte Bueno},
+year={2002},
+publisher={UFSC-LMPT-NPC}}
+
+@misc{fayad,
+author = {Fayad e Schmidt},
+title = {Framework},
+urlaccessdate = {18 Jun. 2014},
+year = {2000},
+url = {http://pt.wikipedia.org/wiki/Framework},
+}
+
+@thesis{andre,
+author = {André da Silva Mendes},
+title = {Historiamento e Publicação de Dados em Tempo Real, Utilizando Arquitetura PIMS},
+type = {Monografia de Pós Graduação},
+school = {Faculdade de Tecnologia SENAI CIMATEC},
+year = {2010},
+}
+
+@article{saranli2001rhex,
+  title={RHex: A simple and highly mobile hexapod robot},
+  author={Saranli, Uluc and Buehler, Martin and Koditschek, Daniel E},
+  journal={The International Journal of Robotics Research},
+  volume={20},
+  number={7},
+  pages={616--631},
+  year={2001},
+  publisher={SAGE Publications}
+}

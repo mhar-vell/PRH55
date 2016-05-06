@@ -1,0 +1,39 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.2 }
+
+\bibitem[Albiez et al. 2015]{5}
+\abntrefinfo{Albiez et al.}{ALBIEZ et al.}{2015}
+{ALBIEZ, J. et al. Flatfish--a compact subsea-resident inspection auv. In:
+  \emph{Proceedings of the MTS/IEEE OCEANS}. [S.l.: s.n.], 2015. p.~1--8.}
+
+\bibitem[Christ e Sr 2013]{7}
+\abntrefinfo{Christ e Sr}{CHRIST; SR}{2013}
+{CHRIST, R.~D.; SR, R.~L. W. \emph{The ROV manual: a user guide for remotely
+  operated vehicles}. [S.l.]: Butterworth-Heinemann, 2013.}
+
+\bibitem[Freitas et al. 2001]{0}
+\abntrefinfo{Freitas et al.}{FREITAS et al.}{2001}
+{FREITAS, C. M.~d. et al. Acidentes de trabalho em plataformas de petr{\'o}leo
+  da bacia de campos, rio de janeiro, brasil.
+\emph{Cadernos de Sa{\'u}de P{\'u}blica}, SciELO Public Health, v.~17, n.~1, p.
+  117--130, 2001.}
+
+\bibitem[Miranda e Brick 2003]{1}
+\abntrefinfo{Miranda e Brick}{MIRANDA; BRICK}{2003}
+{MIRANDA, M.~A.; BRICK, E. An{\'a}lise de custo de vida {\'u}til de sistemas,
+  aplicado a plataformas de petr{\'o}leo.
+\emph{XXXV Simp{\'o}sio Brasileiro de Pesquisa Operacional (SBPO), Natal, RN,
+  Brasil}, 2003.}
+
+\bibitem[Vaz et al. 2015]{6}
+\abntrefinfo{Vaz et al.}{VAZ et al.}{2015}
+{VAZ, T. F.~F. et al. Desenvolvimento de um simulador para ve{\'\i}culos
+  subaqu{\'a}ticos com interface 3d e an{\'a}lise de configura{\c{c}}{\~o}es de
+  propulsores.
+Joinville/SC, 2015.}
+
+\end{thebibliography}
