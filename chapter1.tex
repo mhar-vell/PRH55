@@ -1,43 +1,40 @@
 %\setcounter{equation}{0}
 \chapter{Introdução}
 
-A durabilidade das estruturas em ambiente sub-aquático é de suma importância para uma produção contínua de petróleo, assim como a segurança dos funcionários e do ambiente onde as plataformas e/ou navios estão instalados. O desgaste natural ou acidental dessas instalações deve ser evitado ao máximo pois a operação de extração de petróleo é extremamente perigosa e uma falha ou imperícia pode ocasionar um desastre ambiental.
+O tempo de vida das estruturas em ambiente sub-aquático é de suma importância para uma produção contínua de petróleo. O desgaste acidental dessas instalações deve ser minimizado pois a operação de extração de petróleo é perigosa e uma falha ou imperícia pode ocasionar um desastre ambiental \cite{0}.
 
-Uma plataforma de petróleo é normalmente projetada para 25 anos, tempo este que corresponde ao período de esgotamento das reservas de hidrocarbonetos, segundo \cite{1}. No entanto mesmo depois deste período algumas plataformas ainda continuam em funcionamento, consequentemente a velocidade de degradação tem um aumentam de forma exponencial devido a modificação das propriedades dos materiais utilizados nessas estruturas. Nesta situação observa-se uma extrema necessidade de um monitoramento constante das condições de uso destas instalações submersas.    
+Uma plataforma de petróleo é normalmente projetada para 25 anos, tempo este que corresponde ao período de esgotamento das reservas de hidrocarbonetos, segundo \cite{1}. No entanto mesmo depois deste período algumas plataformas ainda continuam em funcionamento, consequentemente a taxa de degradação tem um aumento devido à modificação das propriedades dos materiais utilizados nessas estruturas. Nesta situação observa-se a necessidade de um monitoramento constante das condições de uso destas instalações submersas.    
  
-Atualmente, as instalações sub-aquáticas são inspecionadas por ROVs, AUVs ou mergulhadores. Estes métodos de inspeção tem um custo elevado
-e sua execução utiliza muito tempo pois necessita de um navio de apoio com o AUV, ROV ou mergulhadores, pessoal qualificado e autorizado para a realização da inspeção além do tempo de mobilização, locomoção e preparo dos equipamentos e estruturas que serão necessárias para a realização do serviço
+Atualmente, os métodos de inspeção tem um custo elevado e sua execução utiliza muito tempo, pois dependem de um navio de apoio com o AUV, ROV, mergulhadores e pessoas qualificadas para a realização da inspeção. Outro fator oneroso é o tempo de mobilização, locomoção e preparo dos equipamentos e estruturas que serão necessárias para a realização do serviço.
  
-
-Um dos principais desafios na inspeção de instalações submarinas esta nos métodos aplicados atualmente que eleva os custos e o tempo para a realização de ações básicas, ações essas que poderiam ser realizadas por pessoas qualificadas da própria plataforma de petróleo, onde também ficaria o ROV aumentando a possibilidade de uma vistoria mais continua, reduzindo os custos e o tempo excluindo a utilização de um navio de apoio.
+As ações de inspeção poderiam ser realizadas por pessoas qualificadas da própria plataforma de petróleo, onde também ficaria o ROV. Desta forma aumenta-se a possibilidade de uma vistoria mais contínua, reduzindo os custos e o tempo para a execução de atividades, excluindo a utilização de um navio de apoio e o tempo perdido com mobilização e locomoção de pessoas e equipamentos.
  
 
 
 \section{Objetivos}
-O objetivo do projeto é desenvolver um supervisório capaz de operar o OpenROV através de um computador com uma interface operacional de fácil compreensão e utilização, tendo algumas operações realizadas pelo ROV sendo executadas automaticamente, mediante a uma programação prévia e analise de informações captadas por sensores. 
+O objetivo do projeto é desenvolver uma interface operacional de fácil compreensão e utilização, capaz de operar o OpenROV através de um computador, tendo algumas operações como o retorno a posição inicial e uma vistoria visual ao redor do objeto desejado realizadas pelo ROV sendo executadas automaticamente, mediante uma programação prévia e analise de informações captadas por sensores. 
 
 \section{Objetivos específicos}
-Seu desenvolvimento será realizado em dois anos de acordo com as seguintes Fases:
-\textbf{\large 1ª Fase.}
- 
+O desenvolvimento será realizado em dois anos de acordo com as seguintes Fases:
+\textbf{ 1ª Fase.}
+
 \begin{itemize}
 
-	\item Montagem do OpenROV.
-	\item Pesquisar configuração padrão do OpenRov.
-	\item Pesquisar linguagens usadas no OpenRov.
-	\item Pesquisar padrões de comunicação do OpenRov.
-	\item Desenvolver um algorítimo no ROS para controlar o OpenROV através de um computador.
-	\item Desenvolver um algorítimo no ROS que recebe as informações adquiridas pelo sensores do OpenROV.
-\end{itemize}
+	\item Criar uma pagina na internet sobre o projeto.
+	\item Desenvolver um algorítimo no ROS para controlar o OpenROV através de um computador e receber as informações adquiridas dos sensores do OpenROV.
+	\item Criar uma interface gráfica intuitiva para controlar o ROV.
+\end{itemize}\\
+\textbf{ 2ª Fase.}
 
- \textbf{\large 2ª Fase.}
- 
+
 \begin{itemize}
 
-	\item Desenvolver um algorítimo no ROS que controle o OpenROV de maneira semi-autônoma de acordo com as informações adquiridas.
-    \item Desenvolver o ambiente de simulação no software GAZEBO.
+	\item Adicionar a programação realizadas no ROS os algorítimos que controlam o OpenROV de maneira semi-autônoma de acordo com os dados adquiridos por sensores.
+    \item Desenvolver o ambiente aquático para a simulação do ROV no software GAZEBO.
 	\item Desenvolver o modelo de simulação do OpenROV no software GAZEBO.
-	\item Realizar simulações e comparar com as simulações realizadas no GAZEBO.
-	\item Desenvolver o TCC.
+	\item Realizar os testes no tanque com o OpenROV e comparar com as simulações realizadas no GAZEBO.
+	\item Desenvolver um artigo científico referente ao projeto.
 
 \end{itemize}
+
+

@@ -1,72 +1,28 @@
 \setcounter{equation}{0}
 \chapter{Revisão bibliográfica}
-De acordo com as informações obtidas com os artigos \cite{2} e \cite{3} pode-se observar vários conceitos importantes para o desenvolvimento eficiente do controle de posicionamento e movimentação de um veiculo operado remotamente em ambiente aquático observando algumas características como avanço, força, velocidade e quais fatores as influencia. 
-O GAZEBO é um simulador 3D muito poderoso e tem seu código aberto como indicado \cite{4} reduzindo custos do processo de desenvolvimento das simulações virtuais sem diminuir a qualidade das simulações. 
-A fundamentação teórica e a idealização deste projeto são baseados como dito anteriormente em alguns projetos desenvolvidos pelo Brazilian Institute of Robotics - BIR / Senai Cimatec com maior fundação no projeto Flat Fish que visa reduzir os custos operacionais das inspeções de estruturas subaquáticas.\cite{5}
-Para este projeto tense as seguintes especificações do OpenROV além da utilização do manual de montagem e configuração fornecidos pelo fabricante através do site http://www.openrov.com/products/2-8.html:
+EM 1953 o francês Dimitri Rebikoff desenvolveu o primeiro ROV que foi chamado de Poodle e foi utilizado em pesquisas arqueológicas subaquática \cite{6}. Desde então esta tecnologia robótica tem evoluído tanto em características construtivas, quanto em áreas de atuação podendo ser aplicados na arqueologia, na analise do ambiente marinho, na extração de petróleo e gás entre outras.
 
-\textbf{\large Especificações físicas:}
- 
+No livro "The ROV Manual: A User Guide for Remotely Operated Vehicle" o autor \cite{7} define uma classificação dos ROVs por tamanho, de acordo com a seguinte ordem:
+
 \begin{itemize}
 
-	\item Peso 2,6 kg.
-	\item Dimensões 30cm de comprimento x 20cm de largura x 15cm.
-	\item Vida útil da bateria nominal usando baterias recarregáveis de lítio é de 2-3 horas (dependendo do uso).
-	
+	\item ROVs de inspeção ou OCROV (Observation Class/Classe de Observação), geralmente são pequenos, equipados com câmeras e fontes de alimentação de corrente contínua, pesão até 100kg, e alcançam 300 metros de profundidade sendo classificados também como ROVs de baixo custo.
+    \item ROVs de médio porte ou MSROV (Mid-Sized ROV/ROV médio), pesão de 100kg a 1000kg, utilizam fontes de energia com corrente alternada, e podem chegar a 3000 metros de profundidade.
+	\item ROVs para a realização de trabalho ou WCROV (Work Class ROV), geralmente utilizam uma fonte de alta tensão, de 3000 volts ou mais que é convertida em energia hidráulica manipulando as ferramentas e realizando a movimentação do ROV no ambiente aquático.
+	\item ROVs para operações específicas são veículos de inspeção ou de realização de trabalho que não são capazes de se locomover dentro da água sem a ajuda de um rebocador ou se locomovem caminhando sobre o solo marinho.
+
 \end{itemize}
-
-\textbf{\large Especificações de performance:}
- 
-\begin{itemize}
-
-	\item Profundidade máxima 100m (328 pés).
-	\item O comprimento máximo de corda 300m (100m corda fornecida).
-	\item Velocidade máximo 2 nós.
-	\item LED brilho 200lm.
-	\item Temperatura de trabalho de 10-50ºc.
-	\item Software de controlado de inclinação da câmera (+/- 60 graus do centro).
-	\item Pesquisar padrões de comunicação do OpenRov.
-	\item Desenvolver um algorítimo no ROS para controlar o OpenRov através de um computador.
-	\item Desenvolver um algorítimo no R
-	
-\end{itemize}
-
-
-\textbf{\large Instruções de uso:}
- 
-\begin{itemize}
-
-	\item Webcam HD (120 graus FOV) com áudio.
-	\item Lasers Escala vermelha (paralela, 10 centímetros de separação).
-	\item Proteção de corrente e tensão com feedback para garantir o funcionamento adequado do sistema.
-	\item I2C bus externo com alimentação 3.3V para instrumentos externos.
-	\item 6 fios auxiliares adicionais para instrumentação ou dispositivos externos definidos pelo usuário. Um canal de alimentação PWM e um canal de controle servo são pré-configurados.
-	\item Código aberto.
-	\item Beaglebone Black e Arduino MEGA para uma plataforma de desenvolvimento flexível e poderosa com dezenas de canais de entrada / saída e abundância de poder de computação para os recursos projetados pelo usuário.
-	área de carga útil de hardware ou equipamento adicional.
-	\item Área de carga útil de hardware ou equipamento adicional.
-	\item Desenvolver um algorítimo no R
-	
-\end{itemize}
-
-\textbf{\large Requisitos Mínimos do Sistema e equipamentos:}
- 
-\begin{itemize}
-
-	\item OS / X / Windows / Linux.
-	\item Últimas navegador Chrome.
-	\item Um computador portátil com conector RJ-45 Ethernet e uma porta USB livre.
-	\item Bateria recarregável 26650 e carregador.
-	\item Um controle Gamepad, tais como:Logitech F310.
-	
-	
-\end{itemize}
-
 
 
 
 \section{Projetos de relevância desenvolvidos}
+\begin{itemize}
 
-\cite{4}
+	\item Projeto Flet-Fish um AUV desenvolvido pelo Instituto Brasileiro de Robótica - BIR / Senai Cimatec em parceria com o Centro de Pesquisa Alemão para Inteligência Artificial - DFKI \cite{5}.
+	\item Projeto "DESENVOLVIMENTO DE UM SIMULADOR PARA VEÍCULOS SUBAQUÁTICOS COM INTERFACE 3D E ANÁLISE DE CONFIGURAÇÕES DE PROPULSORES" de \cite{6}.
+
+\end{itemize}
 
 
+
+ 
